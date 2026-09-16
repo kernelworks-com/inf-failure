@@ -1,0 +1,12 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+agent.md export-ignore
+AGENTS.md export-ignore
+AGENTS.override.md export-ignore
+plan.md export-ignore
+.private export-ignore
+.codex export-ignore
+.claude export-ignore
+work export-ignore
