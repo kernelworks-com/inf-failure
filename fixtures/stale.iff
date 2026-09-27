@@ -1,0 +1,6 @@
+IFF 1 1 0 cpu-reference-v1 5
+1 allocate 1 1 0 prefix-A 0
+2 schedule 1 1 1 prefix-A 1 1
+3 retire 1 1 0 prefix-A 1 2
+4 reuse 1 2 0 prefix-B 1 3
+5 consume 1 1 1 prefix-A 2 2 4
